@@ -1,0 +1,182 @@
+
+html{
+  width:90vw;
+}
+
+body{
+  background-color:#0a0a29; /*I want to present myself well as a professional, so why a choose the background color that can be found on many suits? (Or schoolboys' blazers.) */
+  border-width: 1.5vw;
+  border-color: #fffffa;
+  border-style: inset;
+  color:white;
+  width:85vw;
+  margin: 5vw;
+}
+
+.header h4{
+  font-family: 'Crimson Text', bold, serif;
+  font-size:4vw;
+  text-align:center;
+  line-height: 0vw;
+}
+
+.header h1{
+  font-family: 'Old Standard TT', bold, serif;
+  font-size:8vw;
+  text-align:center;
+  line-height: 0vw;
+}
+
+.header h3{
+  font-family:'Crimson Text', sans-serif;
+  font-size:2.5vw;
+  text-align:center;
+  line-height: 2vw;
+}
+
+.header{
+  height:15vw;
+}
+
+.PageTitle{
+  background-color:#4a4a4a;
+  height:10vw;
+}
+
+.PageTitle h1{
+  font-family: 'Domine', serif;
+  font-size:8vw;
+  text-align:center;
+  line-height: 9vw;
+  margin: 0 auto;
+}
+
+.mainbody h2{
+  text-align:center;
+  font-family:"Quattrocento", sans-serif;
+  font-size:5.5vw;
+  padding-bottom:2vw;
+}
+
+.footer{
+  clear: all;
+  background: rgba(128, 170, 255, .25); 
+  margin-top:3vw;
+  padding-bottom: 2.5vw;
+  width:100%;
+  height:7vw;
+  position: absolute;
+  margin-left: -8vw;
+}
+
+#copyright{
+  text-align:right;
+}
+
+.footer img{
+  height:3vw;
+  width:3vw;
+  margin-top:2vw;
+}
+
+nav{
+  width:100%;
+}
+
+a:hover{
+  color:gray;
+  text-transform: uppercase;
+}
+
+li {
+  font-family: "Crimson Text", serif;
+  font-size: 3vw;
+  margin-right: 6vw;
+  display: inline;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color:white;
+}
+
+#copyright p{
+  margin-top: 1vw;
+  font-family:Tahoma, sans-serif;
+  font-size:1vw;
+  color: white;
+}
+
+#portrait{
+  float:left;
+  margin:40px;
+}
+
+#portrait img{
+  height:250px;
+  width:200px;
+}
+
+.mainbody .BigPhoto img{
+  width:23vw;
+  height:16vw;
+  padding-left:1.7vw;
+  padding-right:1.7vw;
+}
+
+.About p{
+  font-family: Georgia, bold, serif;
+  font-size:30px;
+  text-align:left;
+  line-height: 45px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.mainbody img{
+  display:inline-block;
+  height:275px;
+  width:350px;
+  padding:74px;
+}
+
+.mainbody h2{
+  font-family: "PT Serif", serif;
+  font-size:3vw;
+  text-align:center;
+  line-height: 0vw;
+}
+
+
+.ContactInfo .SocialMedia img{
+  display:inline-block;
+  height:200px;
+  width:220px;
+  padding:50px;
+}
+
+.Contact h3{
+  font-family: "Droid Serif", sans-serif;
+  font-size:3vw;
+  text-align:center;
+  line-height: 4vw;
+}
+
+.ContactInfo h3{
+  font-family: "Vollkorn", sans-serif;
+  font-size:3vw;
+  text-align:center;
+  line-height: 4vw;
+}
+
+.ContactInfo h3 b{
+  font-family: "Droid Serif", serif;
+  font-size:4vw;
+  text-align:center;
+  line-height: 4vw;
+  margin-left: 2vw;
+  margin-bottom: 3vw;
+}
+
+
