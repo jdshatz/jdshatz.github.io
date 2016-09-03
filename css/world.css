@@ -114,13 +114,13 @@ li a {
 }
 
 #portrait img{
-  height:250px;
-  width:200px;
+  height:40vw;
+  width:40vw;
 }
 
 .mainbody .BigPhoto img{
   width:23vw;
-  height:16vw;
+  height:20vw;
   padding-left:1.7vw;
   padding-right:1.7vw;
 }
@@ -128,7 +128,7 @@ li a {
 .About p{
   font-family: Georgia, bold, serif;
   font-size:30px;
-  text-align:left;
+  text-align:center;
   line-height: 45px;
   margin-left: 20px;
   margin-bottom: 20px;
@@ -136,9 +136,12 @@ li a {
 
 .mainbody img{
   display:inline-block;
-  height:275px;
-  width:350px;
-  padding:74px;
+  padding-right: 20vw;
+  padding-left: 18vw;
+  padding-bottom: 5vw;
+  padding-top: 5vw;
+  height:70vw;
+  width:50vw;
 }
 
 .mainbody h2{
@@ -148,12 +151,24 @@ li a {
   line-height: 0vw;
 }
 
+.mainbody h2 a{
+  text-decoration: none;
+  color:white;
+}
+
+.gallery img{ 
+  width:30vw;
+  height:20vw;
+  padding-left:5vw;
+  padding-right:5vw;
+}
 
 .ContactInfo .SocialMedia img{
   display:inline-block;
-  height:200px;
-  width:220px;
-  padding:50px;
+  height:15vw;
+  width:15vw;
+  padding-left:15vw;
+  padding-right:5vw;
 }
 
 .Contact h3{
@@ -178,5 +193,4 @@ li a {
   margin-left: 2vw;
   margin-bottom: 3vw;
 }
-
 
