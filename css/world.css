@@ -5,12 +5,38 @@ html{
 
 body{
   background-color:#0a0a29; /*I want to present myself well as a professional, so why a choose the background color that can be found on many suits? (Or schoolboys' blazers.) */
+}
+
+.wrapper{
   border-width: 1.5vw;
   border-color: #fffffa;
   border-style: inset;
   color:white;
   width:85vw;
   margin: 5vw;
+}
+
+.navigation{
+  clear: all;
+  background: rgba(128, 170, 255, .25); 
+  padding-bottom: 1.5vw;
+  width:110%;
+  height:3.5vw;
+}
+
+.navigation li{
+  margin-left: 2.5vw;
+  margin-top: -1.5vw;
+}
+
+nav{
+  width:100%;
+}
+
+.navigation img{
+  height:3vw;
+  width:3vw;
+  margin-left: 4vw;
 }
 
 .header h4{
@@ -22,7 +48,7 @@ body{
 
 .header h1{
   font-family: 'Old Standard TT', bold, serif;
-  font-size:8vw;
+  font-size:6vw;
   text-align:center;
   line-height: 0vw;
 }
@@ -40,43 +66,15 @@ body{
 
 .PageTitle{
   background-color:#4a4a4a;
-  height:10vw;
+  height:7vw;
 }
 
 .PageTitle h1{
   font-family: 'Domine', serif;
-  font-size:8vw;
+  font-size:5vw;
   text-align:center;
-  line-height: 9vw;
+  line-height: 7vw;
   margin: 0 auto;
-}
-
-.mainbody h2{
-  text-align:center;
-  font-family:"Quattrocento", sans-serif;
-  font-size:5.5vw;
-  padding-bottom:2vw;
-}
-
-.footer{
-  clear: all;
-  background: rgba(128, 170, 255, .25); 
-  margin-top:3vw;
-  padding-bottom: 2.5vw;
-  width:100%;
-  height:7vw;
-  position: absolute;
-  margin-left: -8vw;
-}
-
-#copyright{
-  text-align:right;
-}
-
-.footer img{
-  height:3vw;
-  width:3vw;
-  margin-top:2vw;
 }
 
 nav{
@@ -85,7 +83,6 @@ nav{
 
 a:hover{
   color:gray;
-  text-transform: uppercase;
 }
 
 li {
@@ -101,13 +98,6 @@ li a {
   color:white;
 }
 
-#copyright p{
-  margin-top: 1vw;
-  font-family:Tahoma, sans-serif;
-  font-size:1vw;
-  color: white;
-}
-
 #portrait{
   float:left;
   margin:40px;
@@ -121,17 +111,16 @@ li a {
 .mainbody .BigPhoto img{
   width:23vw;
   height:20vw;
-  padding-left:1.7vw;
-  padding-right:1.7vw;
+  padding-left:3vw;
+  padding-right:1vw;
 }
 
-.About p{
-  font-family: Georgia, bold, serif;
-  font-size:30px;
+.paragraphs p{
+  font-family: "Vollkorn", sans-serif;
+  font-size:2.3vw;
   text-align:center;
-  line-height: 45px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  padding: 0.5vw;
+
 }
 
 .mainbody img{
@@ -146,9 +135,10 @@ li a {
 
 .mainbody h2{
   font-family: "PT Serif", serif;
-  font-size:3vw;
+  font-size:2.5vw;
   text-align:center;
   line-height: 0vw;
+  padding-top: 3vw;
 }
 
 .mainbody h2 a{
@@ -156,11 +146,34 @@ li a {
   color:white;
 }
 
-.gallery img{ 
+.gallery{
+  width:90vw;
+  padding: 2vw;
+}
+
+.project{ 
   width:30vw;
   height:20vw;
-  padding-left:5vw;
-  padding-right:5vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 8vw;
+  display: inline-block;
+}
+
+.project img{
+  width:25vw;
+  height:20vw;
+  margin-left: -12vw;
+}
+
+.project h3{
+  font-family: "PT Serif", serif;
+  font-size:1.5vw;
+  line-height: 2vw;
+  position: relative;
+  padding-left: 3vw;
+  text-align: center;
+  width: 100%;
 }
 
 .ContactInfo .SocialMedia img{
@@ -173,24 +186,32 @@ li a {
 
 .Contact h3{
   font-family: "Droid Serif", sans-serif;
-  font-size:3vw;
+  font-size:2vw;
   text-align:center;
-  line-height: 4vw;
+  line-height: 3vw;
 }
 
 .ContactInfo h3{
   font-family: "Vollkorn", sans-serif;
-  font-size:3vw;
+  font-size:2.5vw;
   text-align:center;
   line-height: 4vw;
 }
 
 .ContactInfo h3 b{
   font-family: "Droid Serif", serif;
-  font-size:4vw;
+  font-size:3vw;
   text-align:center;
   line-height: 4vw;
   margin-left: 2vw;
   margin-bottom: 3vw;
 }
 
+#copyright p{
+  margin-top: 0.7vw;
+  font-family:Tahoma, sans-serif;
+  font-size:1vw;
+  color: white;
+  margin-left: 6vw;
+  text-align: center;
+}
