@@ -1,0 +1,217 @@
+
+html{
+  width:90vw;
+}
+
+body{
+  background-color:#0a0a29; /*I want to present myself well as a professional, so why a choose the background color that can be found on many suits? (Or schoolboys' blazers.) */
+}
+
+.wrapper{
+  border-width: 1.5vw;
+  border-color: #fffffa;
+  border-style: inset;
+  color:white;
+  width:85vw;
+  margin: 5vw;
+}
+
+.navigation{
+  clear: all;
+  background: rgba(128, 170, 255, .25); 
+  padding-bottom: 1.5vw;
+  width:110%;
+  height:3.5vw;
+}
+
+.navigation li{
+  margin-left: 2.5vw;
+  margin-top: -1.5vw;
+}
+
+nav{
+  width:100%;
+}
+
+.navigation img{
+  height:3vw;
+  width:3vw;
+  margin-left: 4vw;
+}
+
+.header h4{
+  font-family: 'Crimson Text', bold, serif;
+  font-size:4vw;
+  text-align:center;
+  line-height: 0vw;
+}
+
+.header h1{
+  font-family: 'Old Standard TT', bold, serif;
+  font-size:6vw;
+  text-align:center;
+  line-height: 0vw;
+}
+
+.header h3{
+  font-family:'Crimson Text', sans-serif;
+  font-size:2.5vw;
+  text-align:center;
+  line-height: 2vw;
+}
+
+.header{
+  height:15vw;
+}
+
+.PageTitle{
+  background-color:#4a4a4a;
+  height:7vw;
+}
+
+.PageTitle h1{
+  font-family: 'Domine', serif;
+  font-size:5vw;
+  text-align:center;
+  line-height: 7vw;
+  margin: 0 auto;
+}
+
+nav{
+  width:100%;
+}
+
+a:hover{
+  color:gray;
+}
+
+li {
+  font-family: "Crimson Text", serif;
+  font-size: 3vw;
+  margin-right: 6vw;
+  display: inline;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color:white;
+}
+
+#portrait{
+  float:left;
+  margin:40px;
+}
+
+#portrait img{
+  height:40vw;
+  width:40vw;
+}
+
+.mainbody .BigPhoto img{
+  width:23vw;
+  height:20vw;
+  padding-left:3vw;
+  padding-right:1vw;
+}
+
+.paragraphs p{
+  font-family: "Vollkorn", sans-serif;
+  font-size:2.3vw;
+  text-align:center;
+  padding: 0.5vw;
+
+}
+
+.mainbody img{
+  display:inline-block;
+  padding-right: 20vw;
+  padding-left: 18vw;
+  padding-bottom: 5vw;
+  padding-top: 5vw;
+  height:70vw;
+  width:50vw;
+}
+
+.mainbody h2{
+  font-family: "PT Serif", serif;
+  font-size:2.5vw;
+  text-align:center;
+  line-height: 0vw;
+  padding-top: 3vw;
+}
+
+.mainbody h2 a{
+  text-decoration: none;
+  color:white;
+}
+
+.gallery{
+  width:90vw;
+  padding: 2vw;
+}
+
+.project{ 
+  width:30vw;
+  height:20vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 8vw;
+  display: inline-block;
+}
+
+.project img{
+  width:25vw;
+  height:20vw;
+  margin-left: -12vw;
+}
+
+.project h3{
+  font-family: "PT Serif", serif;
+  font-size:1.5vw;
+  line-height: 2vw;
+  position: relative;
+  padding-left: 3vw;
+  text-align: center;
+  width: 100%;
+}
+
+.ContactInfo .SocialMedia img{
+  display:inline-block;
+  height:15vw;
+  width:15vw;
+  padding-left:15vw;
+  padding-right:5vw;
+}
+
+.Contact h3{
+  font-family: "Droid Serif", sans-serif;
+  font-size:2vw;
+  text-align:center;
+  line-height: 3vw;
+}
+
+.ContactInfo h3{
+  font-family: "Vollkorn", sans-serif;
+  font-size:2.5vw;
+  text-align:center;
+  line-height: 4vw;
+}
+
+.ContactInfo h3 b{
+  font-family: "Droid Serif", serif;
+  font-size:3vw;
+  text-align:center;
+  line-height: 4vw;
+  margin-left: 2vw;
+  margin-bottom: 3vw;
+}
+
+#copyright p{
+  margin-top: 0.7vw;
+  font-family:Tahoma, sans-serif;
+  font-size:1vw;
+  color: white;
+  margin-left: 6vw;
+  text-align: center;
+}
