@@ -138,6 +138,7 @@ li a {
   text-align:center;
   line-height: 0vw;
   padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
 .mainbody h2 a{
@@ -211,6 +212,5 @@ li a {
   font-family:Tahoma, sans-serif;
   font-size:1vw;
   color: white;
-  margin-left: 6vw;
   text-align: center;
 }
