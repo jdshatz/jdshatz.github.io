@@ -37,6 +37,7 @@ nav{
   height:3vw;
   width:3vw;
   margin-left: 4vw;
+  position:relative;
 }
 
 .header h4{
@@ -57,7 +58,7 @@ nav{
   font-family:'Crimson Text', sans-serif;
   font-size:2.5vw;
   text-align:center;
-  line-height: 2vw;
+  line-height: 3vw;
 }
 
 .header{
@@ -141,9 +142,13 @@ li a {
   padding-bottom: 5vw;
 }
 
-.mainbody h2 a{
+.mainbody a{
   text-decoration: none;
   color:white;
+}
+
+.mainbody a:hover{
+  color:grey;
 }
 
 .gallery{
@@ -212,5 +217,6 @@ li a {
   font-family:Tahoma, sans-serif;
   font-size:1vw;
   color: white;
+  margin-left: 6vw;
   text-align: center;
 }
